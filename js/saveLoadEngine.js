@@ -207,7 +207,7 @@ var SaveLoadEngine = Class.create( {
 
                     this.createGraphFromSerializedData(jsonData);
                 } else {
-                    new TemplateSelector(true);
+                    // new TemplateSelector(true);//disabled the template editor showing at the beginning
                 }
             }.bind(this)
         })
